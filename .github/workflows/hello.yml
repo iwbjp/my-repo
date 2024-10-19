@@ -1,9 +1,5 @@
 name: Hello
-on:
-  workflow_dispatch:
-  push:
-    branches:
-      - main
+on: push
 jobs:
   hello:
     runs-on: ubuntu-latest
